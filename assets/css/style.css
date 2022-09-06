@@ -1,0 +1,165 @@
+/* ------------------------------------------- Global style */
+
+body {
+    background-color: white;
+    font-family: "Helvetica", sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+/* ------------------------------------------- Heading style */
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 50px;
+    padding-right: 5px;
+}
+
+/* ------------------------------------------- game-area */
+
+.game-area {
+    background-color: #795c5c;
+    width: 950px;
+    height: 65vh;
+    max-height: 700px;
+    max-width: 85%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+/* ------------------------------------------- All buttons */
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+
+.btn--big::after {
+	content: attr(data-type);
+	font-size: 1rem;
+	color: #445361;
+	position: relative;
+	left: -0.5em;
+}
+
+/* ------------------------------------------- buttons style */
+
+.btn--brown {
+    border-color: rgb(185, 138, 49);
+    color: rgb(185, 138, 49);
+}
+
+.btn--brown:active,
+.btn--brown:hover {
+    background-color: rgb(73, 45, 11);
+    color: white;
+}
+
+.btn--grey {
+    border-color: rgb(209, 206, 202);
+    color: rgb(209, 206, 202);
+}
+
+.btn--grey:active,
+.btn--grey:hover {
+    background-color: rgb(59, 58, 56);
+    color: white;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn--green {
+    border-color: green;
+    color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/* ------------------------------------------- choice-area */
+
+.choices {
+    margin-bottom: 150px;
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+}
+
+/* ------------------------------------------- choices  */
+
+.player-result {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+.computer-result {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+/* ------------------------------------------- score-area */
+
+.score-area {
+    
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.scores {
+    display: inline-block;
+    margin: 50px;
+}
